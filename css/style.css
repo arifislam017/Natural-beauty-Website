@@ -175,3 +175,81 @@ body{
    margin-top: 10px;
    margin-left: 100px;
 }
+/* Landing Page four */
+.plant_care{
+   width:100%;
+   background-color: #D8E2D9;
+   margin-top: 50px;
+  }
+.subtitle_h2{
+   position: relative;
+   width: 90%;
+   margin: 0 auto;
+   padding: 5px;
+   top: 30px;
+   margin-bottom: 45px;
+}  
+
+.plant_care_container{
+   width: 90%;
+   margin: 0 auto;
+   padding: 5px;
+   display: flex;
+   justify-content: space-between;
+  
+}
+
+.tips_care{
+  width: 55%;
+  display: flex;
+
+}
+
+.right_img,
+.left_img{
+   width: 50%;
+   margin: 5px;
+}
+.right_img img,
+.left_img img{
+   width: 100%;
+   height: 280px;
+   border-radius: 3px;
+}
+.subtitle_h3{
+   position: relative;
+   background-color: #9edaa4a6;
+   color: black;
+   height: 60px;
+   text-align: center;
+   margin-top: -63px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.tips_video{
+   width: 40%;
+  
+}
+.tips_video video{
+   width: 100%;
+   height:285px;
+   border-radius: 3px;
+}
+.plant_selection{
+   display: flex;
+}
+.selection_img{
+   margin: 5px;
+}
+.big_img{
+   width: 45%;
+   
+
+}
+.big_img img{
+   width: 100%;
+   height: 435px;
+   margin-left: 30px;
+   z-index: 1;
+}
