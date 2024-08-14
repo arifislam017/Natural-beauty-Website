@@ -333,7 +333,7 @@ body{
 .footer{
    margin-top:80px;
    width: 100%;
-   background-color: rgba(0, 100, 0, 0.596);
+   background-color: rgb(0, 100, 0);
 }
 .footer_container{
    width: 90%;
@@ -345,10 +345,45 @@ body{
 .program,
 .service,
 .contact{
-color: white;
-line-height: 10px;
+line-height: 20px;
 }
 .newsletter{
    width: 40%;
    line-height: 10px;
+}
+
+input[type=text]{
+   padding: 10px;
+   width: 350px;
+   border-radius: 5px;
+   border: none;
+   font-size: 17px;
+}
+
+.sub_btn{
+   padding: 10px;
+   border-radius: 5px;
+   width: 120px;
+   font-size: 17px;
+   background-color: #D8E2D9;
+   color:darkgreen;
+   border: none;
+   cursor: pointer;
+}
+.footer_text{
+   color: #D8E2D9;
+   cursor: pointer;
+}
+.sub_btn:hover{
+   background-color: orangered;
+   color: white;
+}
+.icon_img{
+   margin-top:15px;
+}
+.icon_img img{
+   width: 40px;
+   height: 40px;
+   margin: 3px;
+   
 }
