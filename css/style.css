@@ -401,19 +401,26 @@ input[type=text]{
       margin: 0 auto;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      
-      
   }
- 
+
+  .nav{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+
+  }
+
+
+  li {
+   width: 100%;
+  }
+  
    li a{
-      text-decoration: none;
-      font-size: 18px;
-      margin: 6px;
+      width: 100%;
+      margin: 0px;
       padding: 8px;
-      border-radius: 5px;
-      color: green; 
-      font-weight: 400;
+      font-size: 18px;
+   
    }
    li a:hover{
       background-color:#22222215;
@@ -435,7 +442,7 @@ input[type=text]{
       height: 32px;
       width: 32px;
       left:45px;
-      margin-top: 20px;
+      margin-top: 30px;
    }
    /* Landing Page two */
    .container_page_one{
@@ -464,19 +471,19 @@ input[type=text]{
       flex-direction: column;
       width: 90%;
    }
-   .sub_container{
+   .sub_container {
       display: flex;
       flex-direction: column;
       width: 100%;
    }
    .sub_container li {
       width: 100%;
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
    }
    .sub_container li a{
-      width: 100%;
-      display: inline;
-      margin: 7px;
-      text-align: center;
+      width: 90%;
    }
    .sub_container hr{
       display: none;
@@ -502,7 +509,9 @@ input[type=text]{
       font-size: 1rem;
       text-align: center;
       margin-top: 10px;
-      margin-left: 130px;
+      margin: 0 auto;
+      margin-top: 10px;
+     
    }
   /* Landing Page four */
 
